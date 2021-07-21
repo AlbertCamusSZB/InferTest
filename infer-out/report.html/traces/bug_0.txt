@@ -1,0 +1,27 @@
+#0
+InferTest/Hello.m:14: error: Null Dereference
+  pointer `hello` last assigned on line 13 could be null and is dereferenced at line 14, column 12.
+
+InferTest/Hello.m:12:1: start of procedure m()
+10. 
+11. @implementation Hello
+12. NSString* m (void) {
+    ^
+13.     Hello* hello = nil;
+14.     return hello->_s;
+
+InferTest/Hello.m:13:5: 
+11. @implementation Hello
+12. NSString* m (void) {
+13.     Hello* hello = nil;
+        ^
+14.     return hello->_s;
+15. }
+
+InferTest/Hello.m:14:5: 
+12. NSString* m (void) {
+13.     Hello* hello = nil;
+14.     return hello->_s;
+        ^
+15. }
+16. @end

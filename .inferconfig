@@ -1,0 +1,9 @@
+{
+    "report-whitelist-path-regex":[
+    ],
+    "report-blacklist-path-regex":[
+     "Pods/AFNetworking",
+     "Pods/SDWebImage",
+     "Pods/Masonry"	
+    ]
+}

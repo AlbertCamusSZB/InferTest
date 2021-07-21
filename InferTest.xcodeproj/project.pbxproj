@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1F64A3DEE670346D84F727 /* Pods_InferTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DB93CB3DD4167907E765F2 /* Pods_InferTest.framework */; };
+		424F0501D7FA0DCCADECA323 /* Pods_InferTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF0E73B146311D3716E521 /* Pods_InferTestTests.framework */; };
+		720D53D6EB9D0AB12179BBDB /* Pods_InferTest_InferTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB65CD52D8313FE82A2FD90 /* Pods_InferTest_InferTestUITests.framework */; };
+		76AEB0F926A6ABD200DD57D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB0F826A6ABD200DD57D2 /* AppDelegate.m */; };
+		76AEB0FF26A6ABD200DD57D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB0FE26A6ABD200DD57D2 /* ViewController.m */; };
+		76AEB10226A6ABD200DD57D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AEB10026A6ABD200DD57D2 /* Main.storyboard */; };
+		76AEB10426A6ABD400DD57D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AEB10326A6ABD400DD57D2 /* Assets.xcassets */; };
+		76AEB10726A6ABD400DD57D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AEB10526A6ABD400DD57D2 /* LaunchScreen.storyboard */; };
+		76AEB10A26A6ABD400DD57D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB10926A6ABD400DD57D2 /* main.m */; };
+		76AEB11426A6ABD400DD57D2 /* InferTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB11326A6ABD400DD57D2 /* InferTestTests.m */; };
+		76AEB11F26A6ABD400DD57D2 /* InferTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB11E26A6ABD400DD57D2 /* InferTestUITests.m */; };
+		76AEB12E26A6AC3400DD57D2 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AEB12D26A6AC3400DD57D2 /* Hello.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AEB11026A6ABD400DD57D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AEB0EC26A6ABD200DD57D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AEB0F326A6ABD200DD57D2;
+			remoteInfo = InferTest;
+		};
+		76AEB11B26A6ABD400DD57D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AEB0EC26A6ABD200DD57D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AEB0F326A6ABD200DD57D2;
+			remoteInfo = InferTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB65CD52D8313FE82A2FD90 /* Pods_InferTest_InferTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InferTest_InferTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA1EB79DA538CB47F80069F /* Pods-InferTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTestTests.debug.xcconfig"; path = "Target Support Files/Pods-InferTestTests/Pods-InferTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3524408CCC6A3B78BCAB612E /* Pods-InferTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTestTests.release.xcconfig"; path = "Target Support Files/Pods-InferTestTests/Pods-InferTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		35D2FF92C17CA2E2CA8CBBC3 /* Pods-InferTest-InferTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTest-InferTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-InferTest-InferTestUITests/Pods-InferTest-InferTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62FE6890B87973330545D3E0 /* Pods-InferTest-InferTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTest-InferTestUITests.release.xcconfig"; path = "Target Support Files/Pods-InferTest-InferTestUITests/Pods-InferTest-InferTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76AEB0F426A6ABD200DD57D2 /* InferTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InferTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AEB0F726A6ABD200DD57D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76AEB0F826A6ABD200DD57D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76AEB0FD26A6ABD200DD57D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76AEB0FE26A6ABD200DD57D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76AEB10126A6ABD200DD57D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76AEB10326A6ABD400DD57D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AEB10626A6ABD400DD57D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AEB10826A6ABD400DD57D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AEB10926A6ABD400DD57D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76AEB10F26A6ABD400DD57D2 /* InferTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InferTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AEB11326A6ABD400DD57D2 /* InferTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InferTestTests.m; sourceTree = "<group>"; };
+		76AEB11526A6ABD400DD57D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AEB11A26A6ABD400DD57D2 /* InferTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InferTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AEB11E26A6ABD400DD57D2 /* InferTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InferTestUITests.m; sourceTree = "<group>"; };
+		76AEB12026A6ABD400DD57D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AEB12C26A6AC3400DD57D2 /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		76AEB12D26A6AC3400DD57D2 /* Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+		AB1274062E3D35C726A67306 /* Pods-InferTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTest.release.xcconfig"; path = "Target Support Files/Pods-InferTest/Pods-InferTest.release.xcconfig"; sourceTree = "<group>"; };
+		ABAE7AF4CB8BED0A4F7F3A4C /* Pods-InferTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InferTest.debug.xcconfig"; path = "Target Support Files/Pods-InferTest/Pods-InferTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E5DB93CB3DD4167907E765F2 /* Pods_InferTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InferTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDF0E73B146311D3716E521 /* Pods_InferTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InferTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AEB0F126A6ABD200DD57D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1F64A3DEE670346D84F727 /* Pods_InferTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB10C26A6ABD400DD57D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424F0501D7FA0DCCADECA323 /* Pods_InferTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB11726A6ABD400DD57D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720D53D6EB9D0AB12179BBDB /* Pods_InferTest_InferTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AEB0EB26A6ABD200DD57D2 = {
+			isa = PBXGroup;
+			children = (
+				76AEB0F626A6ABD200DD57D2 /* InferTest */,
+				76AEB11226A6ABD400DD57D2 /* InferTestTests */,
+				76AEB11D26A6ABD400DD57D2 /* InferTestUITests */,
+				76AEB0F526A6ABD200DD57D2 /* Products */,
+				8DDB28A556F4BC598F84BA8F /* Pods */,
+				D463A1DF6E239CF655BDFF04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76AEB0F526A6ABD200DD57D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AEB0F426A6ABD200DD57D2 /* InferTest.app */,
+				76AEB10F26A6ABD400DD57D2 /* InferTestTests.xctest */,
+				76AEB11A26A6ABD400DD57D2 /* InferTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AEB0F626A6ABD200DD57D2 /* InferTest */ = {
+			isa = PBXGroup;
+			children = (
+				76AEB0F726A6ABD200DD57D2 /* AppDelegate.h */,
+				76AEB0F826A6ABD200DD57D2 /* AppDelegate.m */,
+				76AEB0FD26A6ABD200DD57D2 /* ViewController.h */,
+				76AEB0FE26A6ABD200DD57D2 /* ViewController.m */,
+				76AEB12C26A6AC3400DD57D2 /* Hello.h */,
+				76AEB12D26A6AC3400DD57D2 /* Hello.m */,
+				76AEB10026A6ABD200DD57D2 /* Main.storyboard */,
+				76AEB10326A6ABD400DD57D2 /* Assets.xcassets */,
+				76AEB10526A6ABD400DD57D2 /* LaunchScreen.storyboard */,
+				76AEB10826A6ABD400DD57D2 /* Info.plist */,
+				76AEB10926A6ABD400DD57D2 /* main.m */,
+			);
+			path = InferTest;
+			sourceTree = "<group>";
+		};
+		76AEB11226A6ABD400DD57D2 /* InferTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				76AEB11326A6ABD400DD57D2 /* InferTestTests.m */,
+				76AEB11526A6ABD400DD57D2 /* Info.plist */,
+			);
+			path = InferTestTests;
+			sourceTree = "<group>";
+		};
+		76AEB11D26A6ABD400DD57D2 /* InferTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76AEB11E26A6ABD400DD57D2 /* InferTestUITests.m */,
+				76AEB12026A6ABD400DD57D2 /* Info.plist */,
+			);
+			path = InferTestUITests;
+			sourceTree = "<group>";
+		};
+		8DDB28A556F4BC598F84BA8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABAE7AF4CB8BED0A4F7F3A4C /* Pods-InferTest.debug.xcconfig */,
+				AB1274062E3D35C726A67306 /* Pods-InferTest.release.xcconfig */,
+				35D2FF92C17CA2E2CA8CBBC3 /* Pods-InferTest-InferTestUITests.debug.xcconfig */,
+				62FE6890B87973330545D3E0 /* Pods-InferTest-InferTestUITests.release.xcconfig */,
+				0FA1EB79DA538CB47F80069F /* Pods-InferTestTests.debug.xcconfig */,
+				3524408CCC6A3B78BCAB612E /* Pods-InferTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D463A1DF6E239CF655BDFF04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5DB93CB3DD4167907E765F2 /* Pods_InferTest.framework */,
+				0EB65CD52D8313FE82A2FD90 /* Pods_InferTest_InferTestUITests.framework */,
+				FDDF0E73B146311D3716E521 /* Pods_InferTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AEB0F326A6ABD200DD57D2 /* InferTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AEB12326A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTest" */;
+			buildPhases = (
+				22AF231A39DDA36BAB85F224 /* [CP] Check Pods Manifest.lock */,
+				76AEB0F026A6ABD200DD57D2 /* Sources */,
+				76AEB0F126A6ABD200DD57D2 /* Frameworks */,
+				76AEB0F226A6ABD200DD57D2 /* Resources */,
+				B13E7B099141E8A444ECDC37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InferTest;
+			productName = InferTest;
+			productReference = 76AEB0F426A6ABD200DD57D2 /* InferTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76AEB10E26A6ABD400DD57D2 /* InferTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AEB12626A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTestTests" */;
+			buildPhases = (
+				D8A3868FDF44BB5F524FD3E7 /* [CP] Check Pods Manifest.lock */,
+				76AEB10B26A6ABD400DD57D2 /* Sources */,
+				76AEB10C26A6ABD400DD57D2 /* Frameworks */,
+				76AEB10D26A6ABD400DD57D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AEB11126A6ABD400DD57D2 /* PBXTargetDependency */,
+			);
+			name = InferTestTests;
+			productName = InferTestTests;
+			productReference = 76AEB10F26A6ABD400DD57D2 /* InferTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76AEB11926A6ABD400DD57D2 /* InferTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AEB12926A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTestUITests" */;
+			buildPhases = (
+				C3EC0F845B55956EF86A93F1 /* [CP] Check Pods Manifest.lock */,
+				76AEB11626A6ABD400DD57D2 /* Sources */,
+				76AEB11726A6ABD400DD57D2 /* Frameworks */,
+				76AEB11826A6ABD400DD57D2 /* Resources */,
+				73ABD12E34E9AAA35AB6D7BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AEB11C26A6ABD400DD57D2 /* PBXTargetDependency */,
+			);
+			name = InferTestUITests;
+			productName = InferTestUITests;
+			productReference = 76AEB11A26A6ABD400DD57D2 /* InferTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AEB0EC26A6ABD200DD57D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					76AEB0F326A6ABD200DD57D2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					76AEB10E26A6ABD400DD57D2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 76AEB0F326A6ABD200DD57D2;
+					};
+					76AEB11926A6ABD400DD57D2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 76AEB0F326A6ABD200DD57D2;
+					};
+				};
+			};
+			buildConfigurationList = 76AEB0EF26A6ABD200DD57D2 /* Build configuration list for PBXProject "InferTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AEB0EB26A6ABD200DD57D2;
+			productRefGroup = 76AEB0F526A6ABD200DD57D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AEB0F326A6ABD200DD57D2 /* InferTest */,
+				76AEB10E26A6ABD400DD57D2 /* InferTestTests */,
+				76AEB11926A6ABD400DD57D2 /* InferTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AEB0F226A6ABD200DD57D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEB10726A6ABD400DD57D2 /* LaunchScreen.storyboard in Resources */,
+				76AEB10426A6ABD400DD57D2 /* Assets.xcassets in Resources */,
+				76AEB10226A6ABD200DD57D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB10D26A6ABD400DD57D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB11826A6ABD400DD57D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22AF231A39DDA36BAB85F224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InferTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73ABD12E34E9AAA35AB6D7BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InferTest-InferTestUITests/Pods-InferTest-InferTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InferTest-InferTestUITests/Pods-InferTest-InferTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InferTest-InferTestUITests/Pods-InferTest-InferTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B13E7B099141E8A444ECDC37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InferTest/Pods-InferTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InferTest/Pods-InferTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InferTest/Pods-InferTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EC0F845B55956EF86A93F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InferTest-InferTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A3868FDF44BB5F524FD3E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InferTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AEB0F026A6ABD200DD57D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEB0FF26A6ABD200DD57D2 /* ViewController.m in Sources */,
+				76AEB0F926A6ABD200DD57D2 /* AppDelegate.m in Sources */,
+				76AEB10A26A6ABD400DD57D2 /* main.m in Sources */,
+				76AEB12E26A6AC3400DD57D2 /* Hello.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB10B26A6ABD400DD57D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEB11426A6ABD400DD57D2 /* InferTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEB11626A6ABD400DD57D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEB11F26A6ABD400DD57D2 /* InferTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76AEB11126A6ABD400DD57D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AEB0F326A6ABD200DD57D2 /* InferTest */;
+			targetProxy = 76AEB11026A6ABD400DD57D2 /* PBXContainerItemProxy */;
+		};
+		76AEB11C26A6ABD400DD57D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AEB0F326A6ABD200DD57D2 /* InferTest */;
+			targetProxy = 76AEB11B26A6ABD400DD57D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76AEB10026A6ABD200DD57D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AEB10126A6ABD200DD57D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76AEB10526A6ABD400DD57D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AEB10626A6ABD400DD57D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76AEB12126A6ABD400DD57D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76AEB12226A6ABD400DD57D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76AEB12426A6ABD400DD57D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAE7AF4CB8BED0A4F7F3A4C /* Pods-InferTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AEB12526A6ABD400DD57D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1274062E3D35C726A67306 /* Pods-InferTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76AEB12726A6ABD400DD57D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA1EB79DA538CB47F80069F /* Pods-InferTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InferTest.app/InferTest";
+			};
+			name = Debug;
+		};
+		76AEB12826A6ABD400DD57D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3524408CCC6A3B78BCAB612E /* Pods-InferTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InferTest.app/InferTest";
+			};
+			name = Release;
+		};
+		76AEB12A26A6ABD400DD57D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D2FF92C17CA2E2CA8CBBC3 /* Pods-InferTest-InferTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InferTest;
+			};
+			name = Debug;
+		};
+		76AEB12B26A6ABD400DD57D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FE6890B87973330545D3E0 /* Pods-InferTest-InferTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98MD99MGH9;
+				INFOPLIST_FILE = InferTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wehotel.InferTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InferTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AEB0EF26A6ABD200DD57D2 /* Build configuration list for PBXProject "InferTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AEB12126A6ABD400DD57D2 /* Debug */,
+				76AEB12226A6ABD400DD57D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AEB12326A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AEB12426A6ABD400DD57D2 /* Debug */,
+				76AEB12526A6ABD400DD57D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AEB12626A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AEB12726A6ABD400DD57D2 /* Debug */,
+				76AEB12826A6ABD400DD57D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AEB12926A6ABD400DD57D2 /* Build configuration list for PBXNativeTarget "InferTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AEB12A26A6ABD400DD57D2 /* Debug */,
+				76AEB12B26A6ABD400DD57D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AEB0EC26A6ABD200DD57D2 /* Project object */;
+}

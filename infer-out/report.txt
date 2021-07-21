@@ -1,0 +1,13 @@
+#0
+InferTest/Hello.m:14: error: Null Dereference
+  pointer `hello` last assigned on line 13 could be null and is dereferenced at line 14, column 12.
+  12. NSString* m (void) {
+  13.     Hello* hello = nil;
+  14.     return hello->_s;
+                 ^
+  15. }
+  16. @end
+
+Found 1 issue
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 1
